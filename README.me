@@ -1,120 +1,193 @@
 # 📈 Linear Regression Projects
 
-This repository contains my **Linear Regression projects and practice work**, created while learning and implementing regression concepts in Machine Learning.
+A collection of **Linear Regression projects, experiments, and practice work** created while learning and implementing Machine Learning concepts.
 
-The goal of this repository is to understand Linear Regression from **theory to practical implementation** through multiple projects.
+This repository focuses on understanding Linear Regression **from mathematical fundamentals to practical machine learning projects**.
 
-## 📚 Topics Covered
+The projects are built using Python and popular Data Science and Machine Learning libraries.
+
+---
+
+## 📚 Concepts Covered
+
+### 🔹 Linear Regression Fundamentals
 
 * Simple Linear Regression
 * Multiple Linear Regression
 * Ordinary Least Squares (OLS)
 * Cost Function
-* Coefficients and Intercept
+* Coefficients & Intercept
+* Model Fitting
+* Model Prediction
+
+### 🔹 Data Preparation
+
+* Data Exploration
+* Feature & Target Selection
 * Train-Test Split
 * Feature Scaling
-* Standardization
+* Standardization using `StandardScaler`
+
+### 🔹 Model Evaluation
+
 * Mean Absolute Error (MAE)
 * Mean Squared Error (MSE)
 * Root Mean Squared Error (RMSE)
 * R² Score
 * Adjusted R² Score
-* Model Prediction
-* Prediction on New Data
-* Model Visualization
 
-## 🚀 Projects
+### 🔹 Practical Prediction
 
-### 1. 💰 Salary Prediction
+* Prediction on Test Data
+* Prediction on New/Unseen Data
+* Regression Line Visualization
+* Model Performance Analysis
 
-A Simple Linear Regression project that predicts an employee's salary based on their years of experience.
+---
 
-**Input:**
+# 🚀 Projects
+
+## 1. 💰 Salary Prediction
+
+A **Simple Linear Regression** project that predicts an employee's salary based on their years of experience.
+
+### Input Feature
 
 ```text
 YearsExperience
 ```
 
-**Target:**
+### Target
 
 ```text
 Salary
 ```
 
-Main concepts implemented:
+### Concepts Implemented
 
-* Data preprocessing
+* Data loading and exploration
+* Feature and target selection
 * Train-test split
-* StandardScaler
+* Feature scaling
+* `StandardScaler`
 * Linear Regression
+* Model training
 * Model prediction
-* MAE, MSE, RMSE
+* MAE
+* MSE
+* RMSE
 * R² Score
 * Adjusted R² Score
-* New data prediction
+* Prediction on new data
+* Regression visualization
 
 ---
 
-### 2. 🏠 House Price Prediction
+## 2. 🏠 House Price Prediction
 
-A Simple Linear Regression project that predicts house prices based on area.
+A **Simple Linear Regression** project that predicts house prices based on the area of the house.
 
-**Input:**
+### Input Feature
 
 ```text
 Area
 ```
 
-**Target:**
+### Target
 
 ```text
 Price
 ```
 
-Main concepts implemented:
+### Concepts Implemented
 
 * Data exploration
+* Feature and target selection
 * Train-test split
 * Feature scaling
 * Linear Regression
+* Model training
 * Model evaluation
-* New house price prediction
+* Prediction on test data
+* Prediction on new house data
+* Regression visualization
 
 ---
 
-## 🔄 Machine Learning Workflow
+## 3. 🎓 Student Performance Prediction
+
+A **Simple Linear Regression** project that predicts student performance based on Previous score.
+
+### Input Features
 
 ```text
-Dataset
-   ↓
-Data Exploration
-   ↓
-Feature & Target Selection
-   ↓
-Train-Test Split
-   ↓
-Feature Scaling
-   ↓
-Model Training
-   ↓
-Prediction
-   ↓
-Model Evaluation
-   ↓
-New Data Prediction
+PreviousScore
 ```
 
-## 🛠️ Technologies Used
+### Target
 
-* Python
-* Pandas
-* NumPy
-* Matplotlib
-* Seaborn
-* Scikit-learn
-* Jupyter Notebook
+```text
+Performance / Exam_Score
+```
 
-## 📁 Repository Structure
+### Concepts Implemented
+
+* Data exploration
+* Feature and target selection
+* Train-test split
+* Feature scaling
+* Linear Regression
+* Model training
+* Model prediction
+* MAE
+* MSE
+* RMSE
+* R² Score
+* Prediction on new student data
+* Model performance analysis
+* Data visualization
+
+---
+
+# 🔄 Machine Learning Workflow
+
+```text
+                Dataset
+                   ↓
+           Data Exploration
+                   ↓
+      Feature & Target Selection
+                   ↓
+            Train-Test Split
+                   ↓
+            Feature Scaling
+                   ↓
+            Model Training
+                   ↓
+              Prediction
+                   ↓
+          Model Evaluation
+                   ↓
+        New Data Prediction
+                   ↓
+          Visualization
+```
+
+---
+
+# 🛠️ Technologies & Tools
+
+* 🐍 Python
+* 🐼 Pandas
+* 🔢 NumPy
+* 📊 Matplotlib
+* 📈 Seaborn
+* 🤖 Scikit-learn
+* 📓 Jupyter Notebook
+
+---
+
+# 📁 Repository Structure
 
 ```text
 LinearRegression/
@@ -127,24 +200,89 @@ LinearRegression/
 │   ├── house_price_prediction.ipynb
 │   └── house_price.csv
 │
-├── Future-Project/
-│   └── ...
+├── Student-Performance-Prediction/
+│   ├── student_performance_prediction.ipynb
+│   └── student_performance.csv
 │
 └── README.md
 ```
 
-## 🎯 Goal
-
-This repository is a collection of my **Linear Regression learning and practical projects**.
-
-As I learn more regression concepts, I will continue adding new projects and experiments here.
+> Each project is maintained in its own folder so that new Linear Regression projects can be added easily in the future.
 
 ---
 
-### 👨‍💻 Author
+# 📊 Projects Overview
+
+| # | Project                           | Regression Type            | Target      |
+| - | --------------------------------- | -------------------------- | ----------- |
+| 1 | 💰 Salary Prediction              | Simple Linear Regression   | Salary      |
+| 2 | 🏠 House Price Prediction         | Simple Linear Regression   | Price       |
+| 3 | 🎓 Student Performance Prediction | Simple Linear Regression   | Exam Score  |
+
+---
+
+# 🎯 Repository Goal
+
+The main goal of this repository is to build a strong understanding of **Linear Regression and Regression-based Machine Learning** through continuous practice and hands-on projects.
+
+I am following a learning approach of:
+
+```text
+Theory
+  ↓
+Mathematical Understanding
+  ↓
+Implementation
+  ↓
+Small Projects
+  ↓
+Real-World Projects
+```
+
+As I learn new concepts, I will continue adding projects, experiments, and implementations to this repository.
+
+---
+
+# 📌 Learning Progress
+
+| Topic                          | Status      |
+| ------------------------------ | ----------- |
+| Simple Linear Regression       | ✅ Completed |
+| Ordinary Least Squares (OLS)   | ✅ Completed |
+| Train-Test Split               | ✅ Completed |
+| Feature Scaling                | ✅ Completed |
+| Model Evaluation Metrics       | 🔄 Learning |
+| Multiple Linear Regression     | 🔄 Learning |
+| Advanced Regression            | 🔜 Upcoming |
+| Real-World Regression Projects | 🔜 Upcoming |
+
+---
+
+# 🔮 Future Projects
+
+More Linear Regression and Regression-based Machine Learning projects will be added as I continue learning.
+
+Possible future projects include:
+
+* 🚗 Car Price Prediction
+* 🏡 Real Estate Price Prediction
+* 📈 Sales Prediction
+* 💼 Multiple Feature Salary Prediction
+* 📦 Real-World Regression Projects
+* 🧪 Regression Model Experiments
+
+---
+
+## 👨‍💻 Author
 
 **Samir Shaw**
 
 B.Tech Computer Science & Engineering Student
 
-⭐ This repository will be updated as I continue learning Machine Learning.
+Interested in **Software Development, Data Science & Machine Learning**.
+
+---
+
+⭐ If you find this repository useful, consider giving it a star!
+
+> 🚀 Learning Machine Learning one project at a time.
